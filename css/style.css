@@ -41,7 +41,6 @@ a {
 .container {
   width: min(100% - var(--gap-lg), var(--container-primary));
   margin-inline: auto;
-  overflow: hidden;
 }
 
 .container--sm {
@@ -72,6 +71,10 @@ a {
   display: block;
   transition: scale 0.1s;
   letter-spacing: var(--letter-spacing);
+}
+
+.navbar__link--active {
+  color: var(--color-primary);
 }
 
 .navbar__link:hover {
