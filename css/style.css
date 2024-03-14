@@ -41,6 +41,7 @@ a {
 .container {
   width: min(100% - var(--gap-lg), var(--container-primary));
   margin-inline: auto;
+  overflow: hidden;
 }
 
 .container--sm {
@@ -62,6 +63,7 @@ a {
   display: flex;
   column-gap: 23px;
   margin-left: -10px;
+  flex-wrap: wrap;
 }
 
 .navbar__link {
