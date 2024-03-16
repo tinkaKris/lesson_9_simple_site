@@ -206,3 +206,32 @@ a {
 .footer__copyright {
   font-size: 13px;
 }
+
+@media (max-width: 980px) {
+  .experience-item {
+    flex-basis: 28%;
+    justify-content: center;
+  }
+  .video__iframe {
+    height: 550px;
+  }
+}
+
+@media (max-width: 661px) {
+  .navbar__list {
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+  }
+  .content {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .video__iframe {
+    height: 350px;
+  }
+}
