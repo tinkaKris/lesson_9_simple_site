@@ -4,17 +4,17 @@
   padding-top: 112px;
   padding-bottom: 92px;
   background-color: $color-light;
-}
 
-.section__title {
-  font-weight: 500;
-  font-size: 2rem;
-  text-align: center;
-  margin-bottom: 50px;
-}
+  &__title {
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 50px;
+  }
 
-.section__description {
-  color: $color-secondary;
-  text-align: center;
-  line-height: $line-height-lg;
+  &__description {
+    color: $color-secondary;
+    text-align: center;
+    line-height: $line-height-lg;
+  }
 }

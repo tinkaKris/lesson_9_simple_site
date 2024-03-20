@@ -17,8 +17,8 @@
 .container {
   width: min(100% - $gap-lg, $container-primary);
   margin-inline: auto;
-}
 
-.container--sm {
-  width: min(100% - $gap-lg, $container-sm);
+  &--sm {
+    width: min(100% - $gap-lg, $container-sm);
+  }
 }

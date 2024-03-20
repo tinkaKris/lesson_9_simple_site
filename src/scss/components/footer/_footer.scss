@@ -4,14 +4,14 @@
   background-color: $color-primary;
   color: $color-white;
   padding: 50px 0;
-}
 
-.footer__name {
-  font-size: 21px;
-  font-weight: 500;
-  margin-bottom: 15px;
-}
+  &__name {
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
 
-.footer__copyright {
-  font-size: 13px;
+  &__copyright {
+    font-size: 13px;
+  }
 }
