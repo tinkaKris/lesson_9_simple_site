@@ -1,0 +1,8 @@
+@use "../../presets" as *;
+
+.header {
+  background-color: $color-gray-light;
+  padding-top: 66px;
+  padding-bottom: 141px;
+  min-height: 700px;
+}

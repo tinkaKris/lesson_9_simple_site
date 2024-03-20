@@ -1,0 +1,18 @@
+@use "../presets" as *;
+
+@mixin skin {
+  font: {
+    size: 21px;
+    weight: 500;
+  }
+}
+
+@mixin color {
+  background-color: $color-primary;
+  color: $color-white;
+}
+
+@mixin description {
+  color: $color-secondary;
+  line-height: $line-height-lg;
+}

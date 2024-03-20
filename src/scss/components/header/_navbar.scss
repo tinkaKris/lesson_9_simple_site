@@ -1,0 +1,35 @@
+@use "../../presets" as *;
+
+.navbar {
+  margin-bottom: 134px;
+
+  &__list {
+    display: flex;
+    column-gap: 23px;
+    margin-left: -10px;
+    flex-wrap: wrap;
+
+    @media (max-width: 661px) {
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+      }
+  }
+
+  &__link {
+    color: $color-black;
+    padding: $gap-sm;
+    display: block;
+    transition: scale 0.1s;
+    letter-spacing: $letter-spacing;
+
+    &--active {
+      color: $color-primary;
+    }
+    &:focus,
+    &:hover {
+      color: $color-primary;
+      scale: 1.1;
+    }
+  }
+}
