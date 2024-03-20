@@ -1,9 +1,9 @@
 @use "../../presets" as *;
+@use "../../mixins" as *;
 
 .experience {
-  background-color: $color-primary;
+  @include color;
   padding: 100px 0;
-  color: $color-white;
 
   &__container {
     display: flex;
@@ -24,11 +24,16 @@
   }
 
   &__number {
-    font-size: 21px;
-    font-weight: 500;
+    @include skin;
   }
 
   &__image {
     order: -1;
   }
+
+  @media (max-width: 980px) {
+      flex-basis: 28%;
+      justify-content: center;
+    }
+
 }

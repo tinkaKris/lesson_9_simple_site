@@ -8,5 +8,13 @@
     border: 0;
     height: 600px;
     width: 100%;
+
+    @media (max-width: 980px) {
+      height: 550px;
+    }
+
+    @media (max-width: 550px) {
+      height: 350px;
+    }
   }
 }

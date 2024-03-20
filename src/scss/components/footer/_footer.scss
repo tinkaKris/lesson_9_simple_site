@@ -1,13 +1,12 @@
 @use "../../presets" as *;
+@use "../../mixins" as *;
 
 .footer {
-  background-color: $color-primary;
-  color: $color-white;
+  @include color;
   padding: 50px 0;
 
   &__name {
-    font-size: 21px;
-    font-weight: 500;
+    @include skin;
     margin-bottom: 15px;
   }
 

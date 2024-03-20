@@ -1,4 +1,5 @@
 @use "../../presets" as *;
+@use "../../mixins" as *;
 
 .content {
   max-width: $container-sm;
@@ -14,14 +15,12 @@
   }
 
   &__description {
-    color: $color-secondary;
+    @include description;
     margin-bottom: 22px;
-    line-height: $line-height-lg;
   }
 
   &__link {
-    color: $color-white;
-    background-color: $color-primary;
+    @include color;
     letter-spacing: $letter-spacing;
     padding: 0.5em;
     min-width: 225px;
@@ -30,4 +29,10 @@
     align-items: center;
     justify-content: center;
   }
+
+  @media (max-width: 661px) {
+      margin: 0 auto;
+      align-items: center;
+      text-align: center;
+    }
 }
