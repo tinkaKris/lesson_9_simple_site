@@ -1,0 +1,33 @@
+@use "../../presets" as *;
+
+.content {
+  max-width: $container-sm;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 34px;
+}
+
+.content__title {
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.content__description {
+  color: $color-secondary;
+  margin-bottom: 22px;
+  line-height: $line-height-lg;
+}
+
+.content__link {
+  color: $color-white;
+  background-color: $color-primary;
+  letter-spacing: $letter-spacing;
+  padding: 0.5em;
+  min-width: 225px;
+  min-height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

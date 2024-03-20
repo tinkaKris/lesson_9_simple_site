@@ -1,0 +1,34 @@
+@use "../../presets" as *;
+
+.experience {
+  background-color: $color-primary;
+  padding: 100px 0;
+  color: $color-white;
+}
+
+.experience__container {
+  display: flex;
+  gap: $gap;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.experience-item {
+  display: flex;
+  gap: $gap;
+}
+
+.experience-item__content {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.experience-item__number {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.experience-item__image {
+  order: -1;
+}

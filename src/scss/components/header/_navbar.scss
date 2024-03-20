@@ -1,0 +1,29 @@
+@use "../../presets" as *;
+
+.navbar {
+  margin-bottom: 134px;
+}
+
+.navbar__list {
+  display: flex;
+  column-gap: 23px;
+  margin-left: -10px;
+  flex-wrap: wrap;
+}
+
+.navbar__link {
+  color: $color-black;
+  padding: $gap-sm;
+  display: block;
+  transition: scale 0.1s;
+  letter-spacing: $letter-spacing;
+}
+
+.navbar__link--active {
+  color: $color-primary;
+}
+
+.navbar__link:hover {
+  color: $color-primary;
+  scale: 1.1;
+}
